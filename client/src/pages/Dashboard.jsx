@@ -9,9 +9,9 @@ import {
   XIcon,
 } from "lucide-react";
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 import { dummyResumeData } from "../assets/assets";
-import { useNavigate } from "react-router-dom";
 
 const Dashboard = () => {
   const colors = ["#9333ea", "#d97706", "#dc2626", "#0284c7", "#16a34a"];

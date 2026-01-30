@@ -9,6 +9,7 @@ import Footer from "#components/home/Footer";
 
 // Components
 import Navbar from "#components/Navbar";
+import PersonalInfoForm from "#components/PersonalInfoForm";
 
 export {
   Banner,
@@ -19,4 +20,5 @@ export {
   CallToAction,
   Footer,
   Navbar,
+  PersonalInfoForm,
 };
